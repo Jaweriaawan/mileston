@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hackathone</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+    <h1>Milestone 1,3,4 Image Resume</h1>
+
+    <form id="Resume">
+       <div class="Info">
+            <h3>Personal Information</h3>
+
+           <label for="name">Name</label>
+           <input type="text" id="name" name="name" required><br>
+        
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" required><br>
+
+
+           <label for="contact">Contact</label>
+           <input type="number" id="number" name="number" required><br>
+
+           <label for="address">Address</label>
+           <input type="text" id="Address" name="Address" required><br>
+
+           <label for="profile">Profile Picture</label>
+           <input type="file" name="profile" id="profile" accept="image/*" required>
+
+           <label for="education">Education</label>
+           <textarea name="education" id="education" rows="4" required></textarea>
+           
+           <label for="Experience">Experience</label>
+           <textarea name="experience" id="experience" rows="4" required></textarea>
+
+           <label for="skills">Skills</label>
+           <textarea name="skills" id="skills" rows="4" required></textarea>
+           
+       </div> 
+             <button id="button" type="submit">Generate Resume</button>
+    </form>
+ 
+ <!-- Resume Output -->
+     <div id="resumeoutput">
+
+     </div>
+     <script src="edit.js "></script>
+</body>
+</html>
